@@ -1,0 +1,34 @@
+HOW THE CODE RUNS
+
+GLOBAL Execution Context
+
+First Phase is Memorey Creation Phase in Which js allocate memory to all the variables and functions present in the code.
+
+if variable is var it is stored as undefined -  it does not matter wether it is define or not
+if it is a function then it is stored as it is whole code inside the function copy to that function name.
+
+After Memory creation phase js reads the code from top to bottom and it also allocates the data to variables.
+
+u can refer to "2.js" file where var n=2, so firslty in memory phase it was declared undefined but now when js will read the code it will be assigned the value 2.
+
+**Whenever a function is called in JavaScript a new Execution Context is Created. ** 
+
+Like in this code this all variable and functions are already inside a Execution Context but when the var square2 has called the square function and when the js has read it, it will create a new 
+Execution Context inside the Code Execution phase and then it will allocate memory to all variable and functions present inside the square function.
+
+
+inside it , js will allocate undefined to num and ans then it will start the code Execution in which num was parameter and it was passed value 2 so then 
+js will allocate it value 2 then nums*nums will give value 4 to ans then it will allocate value 4 to ans then it will return ans.
+
+here return ans means give the control back from where it was called.
+then it w return ans , it will check ans in its memory then it is 4 it will return 4 to square2.
+
+so now var square2 = 4.
+
+after this function is executed the Execution Context will be deleted.
+
+after that again same thing Execution Context will be created for square4 and same processes.
+
+
+
+

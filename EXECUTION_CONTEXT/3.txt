@@ -1,0 +1,17 @@
+JavaScript is a single-threaded language, meaning it can only do one task at a time.
+The Call Stack is the data structure JavaScript uses to keep track of what function is currently running and what it needs to do next.
+
+It operates on a LIFO principle—Last In, First Out. Here is how it runs step-by-step:
+
+    When the script starts, JavaScript pushes the Global Execution Context to the bottom of the stack.
+
+    Whenever a new function is called, JavaScript creates a Function Execution Context for it and pushes it to the top of the stack.
+
+    JavaScript executes whatever is at the very top of the stack.
+
+    Once that function finishes running, its context is popped off the stack, and JavaScript resumes the context right below it
+
+
+A great example of the Call Stack in action is a Stack Overflow.
+If we write a recursive function without a base case (a function that calls itself forever), 
+it will keep pushing execution contexts onto the stack until the browser runs out of memory and crashes.4
