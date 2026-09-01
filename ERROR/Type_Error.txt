@@ -1,0 +1,14 @@
+Think of a TypeError like trying to unlock your front door with a car key. The door exists, and the key exists, but you are using the wrong type of tool for the job.
+
+In JavaScript, a TypeError happens when the variable definitely exists, but you are asking it to do something that is impossible for its data type.
+
+Common Causes:
+
+    Trying to change a const variable (a constant is the wrong type of variable to change).
+
+    Trying to use a number like it is a function.
+
+    Trying to read a property (like .length) on something that is empty (null or undefined).
+
+** Re-assigning a new value to const will cause it.
+
