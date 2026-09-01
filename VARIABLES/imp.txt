@@ -1,0 +1,5 @@
+let and const are Block-Scoped: They are safely trapped inside any set of curly braces { ... } (like an if statement or a for loop).
+They cannot leak out.
+
+var is Function-Scoped (The Leaky Box): It ignores standard curly braces { ... }.
+If you put a var inside an if statement, it leaks out and can be used globally. (The only thing that can trap a var is a full function).
