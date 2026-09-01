@@ -1,0 +1,5 @@
+VAR : It can be re-declared and re-assigned.
+
+let : It can't be re-declared but it can be re-assigned.
+
+const: It can't be re-declared and re-assigned.
