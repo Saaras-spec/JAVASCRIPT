@@ -1,0 +1,35 @@
+What does the window house hold?
+
+If you open the front door of the window object, you will find several different "rooms" and tools. Here are the three most important things inside:
+1. The DOM (The Document)
+
+Think of the document as the giant TV screen in the living room of the house. It displays all your HTML (buttons, text, images).
+Because the TV is inside the house, it actually lives at window.document.
+2. Built-in Browser Tools (APIs)
+
+The house comes with built-in appliances you can use to control the browser tab:
+
+    window.alert(): The doorbell that pops up a message.
+
+    window.setTimeout(): A kitchen timer that runs code after a delay.
+
+    window.innerWidth: A tape measure that tells you how wide the browser window is.
+
+    window.localStorage: A safe in the bedroom where you can store data even if the user closes the tab.
+
+3. Your Global Variables
+
+Remember when we talked about the Global Execution Context? If you create a global variable using the old var keyword, or create a global function, JavaScript automatically stores it inside the window object!
+JavaScript
+
+var myName = "Alice";
+
+// JavaScript actually puts it here:
+console.log(window.myName); // Output: "Alice"
+
+(Note: This is one reason why we use let and const today—they do not attach themselves to the window object, which keeps the house from getting cluttered!)
+
+
+The window object is not a core part of the JavaScript language itself. It is provided by the Web Browser (like Chrome, Safari, or Edge) to let JavaScript interact with the browser window.
+
+If you take JavaScript out of the browser and run it on a computer server (using something called Node.js), the window object completely disappears because there is no browser tab anymore!
