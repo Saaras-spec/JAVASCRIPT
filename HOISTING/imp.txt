@@ -1,0 +1,12 @@
+An interviewer might try to trick you by asking what happens if you write a function using const or var (like an Arrow Function).
+
+If you attach a function to a variable, it follows the variable rules, not the function rules!
+JavaScript
+
+sayHi(); // ERROR! sayHi is not a function (yet)
+
+var sayHi = () => {
+  console.log("Hi there!");
+}
+
+Why it fails: Because you used var, JavaScript hoisted sayHi and set it to undefined. You tried to call undefined as if it were a function, which causes an error.
