@@ -1,0 +1,13 @@
+Think of a ReferenceError like telling your friend to "Call John." Your sentence makes perfect grammatical sense, but if your friend doesn't know anyone named John, they will say, "Who are you referring to?"
+
+In JavaScript, a ReferenceError happens when your grammar is perfectly fine, but you are trying to use a variable or a function that does not exist in JavaScript's memory.
+
+Common Causes:
+
+    Misspelling a variable name you created earlier.
+
+    Trying to use a variable that is trapped inside a different block scope (like inside an if statement).
+
+    Trying to use a let or const variable too early (hitting the Temporal Dead Zone we talked about!).
+
+** if variable is not declared then if we accses it.
