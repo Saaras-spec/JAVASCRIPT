@@ -1,0 +1,8 @@
+The Temporal Dead Zone is the period of time between the creation of a let or const variable and its actual initialization.
+ Because let and const are hoisted to the top of their block but are not given an undefined placeholder like var, 
+accessing them before their line of code is executed results in a ReferenceError. 
+The TDZ exists to catch errors early and prevent bugs caused by using variables before they hold actual data
+
+Temporal means "related to time," not space or lines of code.
+
+In JavaScript, the TDZ is the period of time between when a let or const variable is hoisted (put into memory) and when it is actually initialized (assigned a real value).
