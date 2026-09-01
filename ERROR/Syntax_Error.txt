@@ -1,0 +1,13 @@
+Think of a SyntaxError like writing a sentence with terrible grammar.
+
+If you write "Dog the barked loudly," I can't understand what you mean because the structure is broken.
+
+In JavaScript, a SyntaxError means you broke the fundamental typing rules of the language (like forgetting a comma, a quote, or a bracket). The code is so broken that JavaScript refuses to even start running it.
+
+Common Causes:
+
+    Forgetting to close a string with quotation marks.
+
+    Missing a closing bracket } or parenthesis ).
+
+** Re-declaring const and let will cause it
