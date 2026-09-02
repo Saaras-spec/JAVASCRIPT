@@ -1,0 +1,8 @@
+Non-Primitive (A Container): These are Objects and Arrays. They are collections that can hold many different values at the same time. 
+Think of an Object like a filing cabinet that can hold numbers, strings, and booleans all together inside one variable.
+
+objects,arrays,functions,data object,regular expression.
+
+Non - Primitive are mutable(changeable) 
+Primitive are un-mutable(not changeable)
+    
