@@ -1,0 +1,7 @@
+You can shadow a var with a let, but you CANNOT shadow a let with a var.
+
+Why? Remember that var ignores the { } fence. 
+If you try to create a var inside a block with the same name as an outer let,
+ the var will leak out of the block and collide with the let in the same room.
+  JavaScript hates this and throws a SyntaxError.
+  
