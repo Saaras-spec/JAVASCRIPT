@@ -1,0 +1,13 @@
+The word "Lexical" is just a fancy programmer word that means "Where is this code physically written?"
+
+Whenever JavaScript creates an Execution Context (a workspace for a function), it also creates a Lexical Environment. You can think of this as the actual "room" the function lives in.
+
+Every Lexical Environment has exactly two things inside it:
+
+1. Local Memory: The variables and data created inside that specific room.
+
+2.  A Reference to the Outer Environment: A phone line connecting it to the "parent" room that it sits inside.
+
+
+A Lexical Environment is created every time an execution context is created. It consists of the local memory
+ (variables and functions defined inside it) and a reference to its outer lexical environment
