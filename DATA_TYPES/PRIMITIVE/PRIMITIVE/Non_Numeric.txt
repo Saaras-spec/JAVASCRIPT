@@ -1,0 +1,13 @@
+String,boolean,
+
+Undefined : We talked about this when we learned about Hoisting! undefined means a variable has been created (the box exists), but absolutely nothing has been put inside it yet.
+
+NUll : null is very similar to undefined, but it is intentional. 
+It is like handing someone an empty box with a sticky note on it that says: "I purposely made this box empty."
+
+Symbol : A Symbol is a guaranteed unique identifier. Think of it like a secret barcode. Even if two symbols look identical, JavaScript treats them as completely different. (You won't use this much as a beginner, but it's good to know it exists!)
+JavaScript
+
+let id1 = Symbol("secret");
+let id2 = Symbol("secret");
+// id1 and id2 are NOT the same!
