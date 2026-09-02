@@ -1,0 +1,10 @@
+The typeof operator is like a barcode scanner at the grocery store. You point it at a value, and it spits out a text label telling you what it is.
+
+console.log(typeof 42);           // Output: "number"
+console.log(typeof "Hello");      // Output: "string"
+console.log(typeof true);         // Output: "boolean"
+
+let mysteryBox;
+console.log(typeof mysteryBox);   // Output: "undefined"
+
+Fun Fact: If you run typeof null, JavaScript will tell you it is an "object". This is actually a famous bug from the very first version of JavaScript that was never fixed because fixing it would break millions of older websites!)
