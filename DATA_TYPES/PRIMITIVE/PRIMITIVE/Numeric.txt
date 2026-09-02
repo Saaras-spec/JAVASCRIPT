@@ -1,0 +1,15 @@
+1.Number : Unlike other languages that have different types for whole numbers and decimals,
+           JavaScript keeps it simple. A Number is just a number.
+
+
+eg - let age = 25;       // Whole number
+let price = 9.99;   // Decimal
+let temp = -10;     // Negative number
+
+
+2. BigInt : Standard Number types can only get so big before they start losing accuracy (around 9 quadrillion). 
+            If you are doing extreme math (like astrophysics or cryptography), you add an n to the end of a number to make it a BigInt.
+
+
+eg - let hugeNumber = 9007199254740991n;
+
