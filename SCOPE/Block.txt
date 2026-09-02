@@ -1,0 +1,17 @@
+a Block is simply anything wrapped inside a pair of curly braces: { }
+Block is also known as compound statement.
+Block is used to combine multiple JavaScript statements,so that we can use it where js expect only one statement.
+
+2. Block Scope -  all of the functions and variables present inside the block are the block scope.
+Scope" is the rule that decides where a variable is allowed to be used. Therefore, 
+Block Scope means a variable is strictly trapped inside the { } fence where it was created. 
+It cannot escape, and the outside world cannot see it.
+
+
+**var stays in global scope even tho u create it inside block scope.
+but let and const stays inside the block scope u can't accsses them outside the block scope.
+
+If you create a let or const inside a block, they are locked inside. If you try to use them outside the fence, 
+JavaScript will throw a ReferenceError because it cannot see them.
+
+
