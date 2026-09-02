@@ -1,0 +1,5 @@
+Shadowing happens when you create a variable inside a smaller scope (like a block or a function) that has the exact same name as a variable in an outer scope.
+
+Because of how the Scope Chain works (searching from the inside out), 
+JavaScript always grabs the closest variable it finds and stops looking.
+ The outer variable is successfully "shadowed" (hidden).
