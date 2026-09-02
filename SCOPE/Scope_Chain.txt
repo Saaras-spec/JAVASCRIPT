@@ -1,0 +1,19 @@
+The Scope Chain is simply the process of JavaScript using those phone lines to look for a variable.
+
+If you ask JavaScript to find a variable, it follows these exact steps:
+
+    It checks the current room (Local Memory).
+
+    If it isn't there, it calls the parent room (Outer Environment) and checks there.
+
+    If it still isn't there, it calls the grandparent room.
+
+    It keeps chaining these calls all the way up to the Global Environment (the biggest, outermost doll).
+
+    If it checks the Global Environment and still can't find it, it finally throws a ReferenceError.
+
+That climbing process? That is the Scope Chain!
+
+The Scope Chain is the mechanism JavaScript uses to resolve variable values.
+ If a variable isn't found in the local memory, JavaScript traverses the scope chain,
+  checking outer environments one by one until it reaches the global scope or throws a ReferenceError.
