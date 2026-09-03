@@ -1,0 +1,10 @@
+his is where the magic (and the bugs) happen!
+
+If you try to do an operation with two different data types (like adding a Number to a String), JavaScript panics slightly and says, "I can't add apples and oranges! I'm going to secretly turn the apple into an orange so this works!"
+The + Operator (Prefers Strings)
+
+If you use the + sign and any of the values is a String, JavaScript will secretly convert everything else into a String and glue them together.
+
+The -, *, / Operators (Prefers Numbers)
+
+Math operators like subtraction, multiplication, and division only make sense for numbers. So, if you use them on Strings, JavaScript will secretly convert the Strings into Numbers!

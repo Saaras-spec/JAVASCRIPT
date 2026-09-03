@@ -1,0 +1,10 @@
+A double equals sign (==) is the Loose Equality Operator.
+
+A triple equals sign (===) is the Strict Equality Operator.
+
+1.When == compares two things, it only cares if they have the same Value, even if they are different Types. 
+If the types are different, == will use implicit coercion (the secret shape-shifting we just learned about) to try and force them to match before checking them.
+
+
+2. When === compares two things, it checks BOTH the Value AND the Type. It refuses to do any secret coercion.
+ If the data types don't match perfectly, it immediately rejects them and returns false.

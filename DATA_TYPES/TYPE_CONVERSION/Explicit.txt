@@ -1,0 +1,13 @@
+This is when you actively tell JavaScript, "Hey, take this String and turn it into a Number right now!"
+
+You do this using built-in JavaScript functions that act like translation dictionaries. The three most common are Number(), String(), and Boolean().
+
+
+(Note: If you try to do Number("Apple"), JavaScript will spit out NaN, which stands for "Not a Number"!)
+
+
+Converting to a Boolean
+
+This one is fun! If you convert something to a Boolean, JavaScript decides if it is "truthy" or "falsy".
+ Almost everything converts to true (like "Hello", 42, or an array), except for a few empty things (like 0, "", null, undefined), 
+ which convert to false.
