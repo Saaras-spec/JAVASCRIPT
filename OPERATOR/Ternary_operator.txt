@@ -1,0 +1,4 @@
+The Ternary operator is simply a shortcut for an if...else statement. It shrinks 5 lines of code into 1 single line.
+
+It always follows this exact pattern:
+Condition ? Do this if true : Do this if false

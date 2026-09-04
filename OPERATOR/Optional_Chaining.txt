@@ -1,0 +1,5 @@
+The Analogy: The Polite Knocker
+
+When you try to get data out of a deeply nested Object, your code will instantly crash with a TypeError if one of the inner objects doesn't exist.
+
+Optional Chaining (?.) is like knocking on a door before trying to open it. If the room doesn't exist, it politely walks away and returns undefined instead of crashing your entire program.

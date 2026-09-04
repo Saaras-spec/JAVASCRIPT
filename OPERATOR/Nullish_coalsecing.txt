@@ -1,0 +1,8 @@
+he Analogy: The Strict Backup Plan
+
+Sometimes, you want to use a variable, but if that variable is completely missing or empty, you want to use a "backup" default value instead.
+
+Before the ?? operator existed, developers used the Logical OR operator (||) for this. But || has a major flaw: it treats the number 0 and empty strings "" as "falsy" missing values.
+
+Nullish Coalescing (??) is much stricter. It only uses the backup plan if the first value is strictly null or undefined. If it's a 0 or an empty string, it respects it as real data!
+
